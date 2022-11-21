@@ -1,0 +1,26 @@
+.room-card {
+  width: 300px;
+  height: 200px;
+  border: 5px solid red;
+  margin: 5px;
+  display: inline-block;
+}
+
+.img-holder {
+  display: block;
+  margin: 20px;
+}
+
+.description-holder {
+  display: block;
+}
+
+.img-thumbnail {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+.rooms-container {
+  margin: 20px;
+}

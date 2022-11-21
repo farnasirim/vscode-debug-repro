@@ -1,0 +1,38 @@
+* {
+  user-select: none;
+}
+
+html,
+body {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+#renderCanvas {
+  height: 100vh;
+  width: 100vw;
+  touch-action: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* webkit mobile */
+}
+
+#fps {
+  position: absolute;
+
+  text-align: center;
+  font-size: 16px;
+  color: red;
+  top: 15px;
+  right: 10px;
+  width: 60px;
+  height: 20px;
+}

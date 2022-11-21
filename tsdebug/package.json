@@ -1,0 +1,25 @@
+{
+  "name": "tsdebug",
+  "version": "1.0.0",
+  "description": "Front-end code for nok.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --server-type https",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-browserify": "^3.12.0",
+    "html-webpack-plugin": "^5.5.0",
+    "stream-browserify": "^3.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "devDependencies": {
+    "@types/webpack": "^5.28.0",
+    "ts-loader": "^9.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3",
+    "webpack-cli": "^5.0.0"
+  }
+}
